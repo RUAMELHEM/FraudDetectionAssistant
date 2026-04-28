@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+fraud_detection.log
+
+# Cache
+.cache/
+*.cache
+
+# Test results
+.pytest_cache/
+htmlcov/
+
+# Data (keep only demo_invoices.csv)
+test_invoices.csv
+demo_fraud_results*.csv
+demo_fraud_results*.json
+fraud_results_*.csv
+fraud_results_*.json
+fraud_detection_results.csv
+
+# Environment variables
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary
+*.tmp
+*.bak
